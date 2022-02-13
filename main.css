@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1 rem = 10px */
+}
+
+
+body {
+  font-family: 'Roboto Serif', sans-serif;
+  background-color: #0a35c4;
+  font-weight: 200;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: #c2d3cd;
+  box-shadow: 0 2rem 6rem rgba(0,0,0,.3);
+  min-height: 80rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  background-color: #afbfc0;
+  color: #0a35c4;
+  border-bottom: #847e89;
+}
+
+.logo {
+  margin-left: 3rem;
+  color: #fff;
+  font-style: italic;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.babbage {
+  margin-left: -3rem;
+  color : #051b63;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.nav {
+  margin-right: 3rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.bio {
+  display: flex;
+}
+
+.bio .cb {
+  margin: .5rem;
+  padding: 2rem;
+  height: 36rem;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+.bio .biography {
+  display: flex;
+  margin: .5rem;
+  padding: 2rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 1.8rem;
+  font-weight: 600;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+.bio .info {
+  color: #fffaf0;
+  font-size: 2.5rem;
+  align-self: flex-start;
+  padding: 1rem;
+  border-radius: .5rem;
+  background-color: #ffa69e;
+}
+
+.machines {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item {
+  display: flex;
+  color: #fffaf0;
+  font-size: 2.5rem;
+  margin: .5rem;
+  padding: 1rem;
+  border-radius: .5rem;
+  background-color: #ffa69e;
+  justify-content: center;
+  align-items: center;
+}
+
+.m1 {
+  margin: .5rem;
+  padding: 2rem;
+  padding-bottom: .5rem;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+.m1 img {
+  height: 33rem;
+}
+
+.m1 p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
