@@ -73,6 +73,7 @@ body {
   margin: .5rem;
   padding: 2rem;
   height: 36rem;
+  background-color: #e0e8e5;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);
 }
 
@@ -84,6 +85,7 @@ body {
   justify-content: space-evenly;
   font-size: 1.8rem;
   font-weight: 600;
+  background-color: #e0e8e5;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);
 }
 
@@ -115,16 +117,14 @@ body {
 
 .m1 {
   margin: .5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
   padding: 2rem;
   padding-bottom: .5rem;
+  background-color: #e0e8e5;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);
 }
 
 .m1 img {
   height: 33rem;
-}
-
-.m1 p {
-  font-size: 1.5rem;
-  font-weight: 600;
 }
